@@ -1,0 +1,14 @@
+{
+  "name": "ticktok-examples",
+  "version": "1.0.0",
+  "description": "Example for usage of ticktok.js",
+  "keywords": [
+    "ticktok",
+    "js",
+    "sdk"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ticktok": "^0.1.0"
+  }
+}
