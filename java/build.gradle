@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile 'io.ticktok:ticktok-java-client:0.4.2'
+}
