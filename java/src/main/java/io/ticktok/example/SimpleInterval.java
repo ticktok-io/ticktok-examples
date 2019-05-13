@@ -8,6 +8,6 @@ public class SimpleInterval {
 
     public static void main(String[] args) {
         new Ticktok(options().domain(args[0]).token(args[1]))
-                .schedule("kuku-clock", "every.10.seconds", () -> System.out.println("tick"));
+                .schedule("simple-interval-java", "every.30.seconds", () -> System.out.println("tick"));
     }
 }
