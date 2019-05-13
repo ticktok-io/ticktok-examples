@@ -9,6 +9,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "ticktok": "^0.1.2"
+    "ticktok": "^0.1.3"
   }
 }
