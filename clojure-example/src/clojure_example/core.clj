@@ -4,14 +4,12 @@
 (def config {:host "http://localhost:8080"
              :token "ticktok-zY3wpR"})
 
-(def clock {:name "hurry.up"
-            :schedule "every.3.seconds"
-            :callback #(println "First clock got a tick!")})
-
 (def ticktok (tk/ticktok :start config))
 
 ;; Scheduling a clock
-(ticktok :schedule clock)
+(ticktok :schedule {:name "hurry.up"
+                    :schedule "every.3.seconds"
+                    :callback #(println "First callback got a tick!")})
 
 
 ;; Reschedule same clock with different callback
