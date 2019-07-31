@@ -1,14 +1,6 @@
-# examples
-
-A Clojure library designed to ... well, that part is up to you.
-
+# Ticktok examples
 ## Usage
-
-FIXME
-
-## License
-
-Copyright © 2019 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+* Simple interval:  
+```lein run -m examples.simple-interval <ticktok-host> <ticktok-token>```
+* Manual tick:  
+```lein run -m examples.manual-tick <ticktok-host> <ticktok-token>```
