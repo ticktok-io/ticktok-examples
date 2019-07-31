@@ -1,6 +1,6 @@
-(ns simple-interval.core-test
+(ns examples.core-test
   (:require [clojure.test :refer :all]
-            [simple-interval.core :refer :all]))
+            [examples.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

@@ -1,4 +1,4 @@
-(ns simple-interval.core
+(ns examples.simple-interval
   (:require [ticktok.core :as tk])
   (:gen-class))
 
